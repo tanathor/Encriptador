@@ -24,25 +24,7 @@ label {
     font-family: "Montserrat", sans-serif;
 }
 
-.container {
-    height: 500px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
-.text-box1 {
-    width: 50%;
-    float: left;
-    display: grid;
-    place-items: center;
-}
-
-.text-box2 {
-    width: 50%;
-    float: right;
-    display: grid;
-    place-items: center;
-}
 
 #input-text,
 #encrypted-text {
@@ -74,37 +56,22 @@ label {
     content: "♠";
 }
 
-
-/* CSS para movil */
-
-@media screen and (max-width: 480px) {
-    .text-box1, .text-box2{
-        width: 100%;
-    }
-
-    .text-box1 > label, .text-box2 > label{
-        margin: 1em;
-    }
-
-    #boton-desencriptar, #boton-copiar{
-        margin-bottom: 1em;
-    }
+.container {
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-/* Tablet */
+.text-box1 {
+    width: 50%;
+    float: left;
+    display: grid;
+    place-items: center;
+}
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .text-box1, .text-box2{
-        width: 100%;
-    }
-
-    .text-box1 > label, .text-box2 > label{
-        margin: 1em;
-    }
-
-    #boton-desencriptar, #boton-copiar{
-        margin-bottom: 1em;
-    }
-
-    
+.text-box2 {
+    width: 50%;
+    float: right;
+    display: grid;
+    place-items: center;
 }
